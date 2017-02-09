@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <!-- 引入导航 -->
+    <%- include commen/nav %>
+    <!-- 引入主体 -->
+    <%- include commen/main %>
+    <!-- 引入页脚 -->
+    <%- include commen/footer %>
+    <!-- 这是从路由传过来的数值 -->
+    <h1><%= title %></h1>
+    <p><%= content %></p>
+    <!-- 
+
+    tips：一旦更改路由请重新启动服务
+    
+     -->
+
+  </body>
+</html>
